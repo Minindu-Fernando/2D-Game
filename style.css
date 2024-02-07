@@ -1,0 +1,64 @@
+.body{
+    margin: 0px;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: url("resources/background.jpg" );
+    background-size: cover;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    position: absolute; 
+
+}
+.boy{
+    height: 210px;
+    margin-top: 425px; 
+    position: absolute;
+}
+.box{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    margin-top: 520px;
+    background-image: url(/resources/spyro-dragon.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.score{
+   font-size: 50px; 
+   font-weight: bold;
+   margin-left: 30px;
+   margin-top: 20px;
+   background-color:deepskyblue;
+   position: absolute;
+   padding: 10px 20px;
+}
+
+.end{
+    width: 100%;
+    height:100vh;
+    position: absolute;
+    background-image: linear-gradient(to bottom left, #00ffff 0%, #0000ff 100%);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 90px;
+    font-weight: bold;
+   font-family: fantasy;
+   visibility: hidden;
+}
+.btn{
+    font-size: 30px;
+    height: 65px;
+    width: 300px;
+    margin-top: 50px;
+    font-weight: bold;
+    border-radius:30px;
+    border-color: #1dc304;
+
+}
+.btn:hover{
+    background-color: black;
+    color: rgb(41, 193, 3);
+}
